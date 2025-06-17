@@ -8,11 +8,13 @@
   <description>
     <p>
       This is a demonstration application that shows a Hello World
-      window using the PyQt6 framework.
+      window using the PyQt6 framework in a Debian package.
+      This is a test package for the BibleApp-linux project.
+      This code was vibe-coded with cursor.
     </p>
   </description>
-  <url type="homepage">https://github.com/Josh-Reimer/BibleApp-linux</url>
-  <url type="bugtracker">https://github.com/Josh-Reimer/BibleApp-linux/issues</url>
+  <url type="homepage">https://github.com/Josh-Reimer/vibe-deb</url>
+  <url type="bugtracker">https://github.com/Josh-Reimer/vibe-deb/issues</url>
   <screenshots>
     <screenshot type="default">
       <image>hello-world-pyqt.png</image>

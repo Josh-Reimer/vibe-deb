@@ -1,9 +1,9 @@
 Source: hello-world-pyqt
 Section: python
 Priority: optional
-Maintainer: Your Name <your.email@example.com>
+Maintainer: Josh Rimer
 Build-Depends: debhelper (>= 11), python3-all, python3-setuptools, dh-python
-Homepage: https://github.com/Josh-Reimer/BibleApp-linux
+Homepage: https://github.com/Josh-Reimer/vibe-deb
 
 Package: hello-world-pyqt
 Architecture: all
