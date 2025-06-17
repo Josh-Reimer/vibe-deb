@@ -1,0 +1,16 @@
+Source: hello-world-pyqt
+Section: python
+Priority: optional
+Maintainer: Your Name <your.email@example.com>
+Build-Depends: debhelper (>= 11), python3-all, python3-setuptools, dh-python
+Homepage: https://github.com/yourusername/hello-world-pyqt
+Screenshots: https://github.com/yourusername/hello-world-pyqt/raw/main/debian/screenshots/main.png
+
+Package: hello-world-pyqt
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3-pyqt6 | python3-pip
+Description: A simple Hello World application using PyQt6
+ This is a demonstration application that shows a Hello World
+ window using the PyQt6 framework. 
+ If python3-pyqt6 is not available in your distribution's repositories,
+ you can install PyQt6 using pip: sudo pip3 install PyQt6 

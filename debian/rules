@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE = 1
+export PYBUILD_NAME = hello-world-pyqt
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild --compat=13
+
+override_dh_auto_install:
+	dh_auto_install
+	install -D -m 755 hello_world.py debian/hello-world-pyqt/usr/bin/hello-world-pyqt.real
+	install -D -m 755 debian/hello-world-pyqt.wrapper debian/hello-world-pyqt/usr/bin/hello-world-pyqt
+	install -D -m 644 debian/hello-world-pyqt.desktop debian/hello-world-pyqt/usr/share/applications/hello-world-pyqt.desktop
+	install -D -m 644 debian/hello-world-pyqt.appdata.xml debian/hello-world-pyqt/usr/share/metainfo/hello-world-pyqt.appdata.xml
+	install -D -m 644 debian/screenshots/main.png debian/hello-world-pyqt/usr/share/hello-world-pyqt/screenshots/main.png
+
+# Ensure the .deb file has correct permissions
+override_dh_builddeb:
+	dh_builddeb
+	chmod 644 ../*.deb 

@@ -1,0 +1,9 @@
+README.md
+hello_world.py
+setup.py
+hello_world_pyqt.egg-info/PKG-INFO
+hello_world_pyqt.egg-info/SOURCES.txt
+hello_world_pyqt.egg-info/dependency_links.txt
+hello_world_pyqt.egg-info/entry_points.txt
+hello_world_pyqt.egg-info/requires.txt
+hello_world_pyqt.egg-info/top_level.txt

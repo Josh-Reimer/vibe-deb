@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Hello World PyQt
+Comment=A simple Hello World application using PyQt6
+Exec=hello-world-pyqt
+Terminal=false
+Type=Application
+Categories=Utility;
+Icon=hello-world-pyqt
+Keywords=hello;world;demo;pyqt;
+StartupNotify=true
+X-GNOME-SingleWindow=true
+X-Ubuntu-Touch=true
+X-AppStream-Issue=https://github.com/yourusername/hello-world-pyqt/issues
+X-AppStream-Screenshot=https://github.com/yourusername/hello-world-pyqt/raw/main/debian/screenshots/main.png 
