@@ -11,16 +11,16 @@
       window using the PyQt6 framework.
     </p>
   </description>
-  <url type="homepage">https://github.com/yourusername/hello-world-pyqt</url>
-  <url type="bugtracker">https://github.com/yourusername/hello-world-pyqt/issues</url>
+  <url type="homepage">https://github.com/Josh-Reimer/BibleApp-linux</url>
+  <url type="bugtracker">https://github.com/Josh-Reimer/BibleApp-linux/issues</url>
   <screenshots>
     <screenshot type="default">
-      <image>https://github.com/yourusername/hello-world-pyqt/raw/main/debian/screenshots/main.png</image>
+      <image>hello-world-pyqt.png</image>
       <caption>Main application window</caption>
     </screenshot>
   </screenshots>
   <content_rating type="oars-1.1" />
   <releases>
-    <release version="1.0.0" date="2024-03-14" />
+    <release version="1.0.0" date="2025-06-14" />
   </releases>
 </component> 
