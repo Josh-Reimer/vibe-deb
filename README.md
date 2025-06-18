@@ -1,3 +1,5 @@
+![App Screenshot](screenshots/shot1.png)
+
 # Hello World PyQt6 Debian Package
 
 This project is a simple "Hello World" desktop application built with Python and PyQt6, packaged as a `.deb` file for easy installation on Debian-based systems.
