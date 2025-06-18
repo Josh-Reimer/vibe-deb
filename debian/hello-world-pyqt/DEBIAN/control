@@ -1,0 +1,14 @@
+Package: hello-world-pyqt
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Josh Rimer
+Installed-Size: 1209
+Depends: python3-pyqt6, python3:any
+Section: python
+Priority: optional
+Homepage: https://github.com/Josh-Reimer/vibe-deb
+Description: A simple Hello World application using PyQt6
+ This is a demonstration application that shows a Hello World
+ window using the PyQt6 framework.
+ If python3-pyqt6 is not available in your distribution's repositories,
+ you can install PyQt6 using pip: sudo pip3 install PyQt6

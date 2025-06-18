@@ -13,6 +13,16 @@ override_dh_auto_install:
 	install -D -m 644 debian/hello-world-pyqt.desktop debian/hello-world-pyqt/usr/share/applications/hello-world-pyqt.desktop
 	install -D -m 644 debian/hello-world-pyqt.appdata.xml debian/hello-world-pyqt/usr/share/metainfo/hello-world-pyqt.appdata.xml
 	install -D -m 644 debian/screenshots/main.png debian/hello-world-pyqt/usr/share/app-install/screenshots/hello-world-pyqt.png
+	# Install icons in multiple sizes
+	install -D -m 644 icons/icon.png debian/hello-world-pyqt/usr/share/icons/hicolor/16x16/apps/hello-world-pyqt.png
+	install -D -m 644 icons/icon.png debian/hello-world-pyqt/usr/share/icons/hicolor/32x32/apps/hello-world-pyqt.png
+	install -D -m 644 icons/icon.png debian/hello-world-pyqt/usr/share/icons/hicolor/48x48/apps/hello-world-pyqt.png
+	install -D -m 644 icons/icon.png debian/hello-world-pyqt/usr/share/icons/hicolor/64x64/apps/hello-world-pyqt.png
+	install -D -m 644 icons/icon.png debian/hello-world-pyqt/usr/share/icons/hicolor/128x128/apps/hello-world-pyqt.png
+	install -D -m 644 icons/icon.png debian/hello-world-pyqt/usr/share/icons/hicolor/256x256/apps/hello-world-pyqt.png
+	# Create pixmaps directory and symbolic link for legacy icon support
+	install -d debian/hello-world-pyqt/usr/share/pixmaps
+	ln -sf ../../icons/hicolor/48x48/apps/hello-world-pyqt.png debian/hello-world-pyqt/usr/share/pixmaps/hello-world-pyqt.png
 
 # Ensure the .deb file has correct permissions
 override_dh_builddeb:
